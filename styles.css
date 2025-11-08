@@ -16,8 +16,8 @@ header {
 }
 
 .logo {
-  height: 50px;
-  width: auto;
+    height: 50px;
+    width: auto;
 }
 
 nav ul {
@@ -46,6 +46,16 @@ nav ul li a:hover {
     color: white;
     text-decoration: none;
 }
+a {
+    color: blue;
+    text-decoration: none;  
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
 
 #content {
     font-family: "Chelsea Market", system-ui;
@@ -53,6 +63,17 @@ nav ul li a:hover {
     margin-left: 20px;
     margin-right: 20px;
 }
+#contact {
+    font-family: "Chelsea Market", system-ui;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#contact button {
+    font-size: 30px;
+    font-family: "Chelsea Market", system-ui;
+}
+
 .flag {
     margin-left: -20px;
 }
